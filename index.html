@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Notebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Notebook</h1>
+    <form id="diary-form">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="entry">Entry:</label>
+        <textarea id="entry" name="entry" rows="10" required></textarea>
+        <br>
+        <button type="submit">Save Entry</button>
+    </form>
+    <div id="entries"></div>
+    <script src="script.js"></script>
+</body>
+</html>
